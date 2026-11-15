@@ -1,0 +1,12 @@
+:root{--bg:#f6faf8;--fg:#14211d;--muted:#56665f;--acc:#1f7a63;--card:#fff;--line:#d9e5df}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1714;--fg:#e6efeb;--muted:#9fb1a9;--acc:#4fc3a1;--card:#16211d;--line:#26342e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main,header,footer{max-width:760px;margin:0 auto;padding:0 16px}header{padding-top:28px}
+a{color:var(--acc)}h1{line-height:1.25;margin:.2em 0 .4em}h2{margin-top:1.6em}
+.kartu{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}
+.meta{color:var(--muted);font-size:.9em}.video{position:relative;padding-top:177%;max-width:360px;margin:16px auto}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:12px}
+.baris{margin:.5em 0}.baris b{color:var(--acc)}.tombol{display:inline-block;background:var(--acc);color:#fff;
+padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600;margin:4px 6px 4px 0}
+ul.daftar{list-style:none;padding:0}ul.daftar li{margin:0}.catatan{font-size:.9em;color:var(--muted)}
+footer{padding:28px 16px 40px;color:var(--muted);font-size:.9em}

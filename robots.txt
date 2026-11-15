@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://webpenelitian-cpu.github.io/klipcuan/sitemap.xml
