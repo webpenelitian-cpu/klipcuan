@@ -1,0 +1,5 @@
+data-lokal/
+.env
+.env.*
+*.dat
+client_secret*.json
